@@ -1,0 +1,32 @@
+{
+  "name": "software-sherpa",
+  "version": "1.0.0",
+  "description": "Music Label App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imjustSahen/Software-Sherpas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "express": "^4.17.2",
+    "graphql": "^15.8.0",
+    "react-modal": "^3.16.1"
+  },
+  "bugs": {
+    "url": "https://github.com/imjustSahen/Software-Sherpas/issues"
+  },
+  "homepage": "https://github.com/imjustSahen/Software-Sherpas#readme"
+}
