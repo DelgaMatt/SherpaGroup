@@ -11,10 +11,11 @@ const ArtistList = ({artists}) => {
     return (
         <div className="images-container" >
             {artists && artists.map((artist) => (
+                
                 <div key={artist._id } className="artist-box">
-                    <Link to={`/artist/${artist._id}`} description={artist.description}>
-                            
-                        <img src={`/images/${artist.thumbnailImg}`} alt={artist.secondaryImage} className="image-box"></img>
+                    <Link to={`/artist/${artist._id}`} description={artist.description}> 
+
+                        <img src={`/images/${artist.thumbnailImg}`} alt={artist.secondaryImage} className="image-box" />
 
                         <div className="middle">
                             <div>
