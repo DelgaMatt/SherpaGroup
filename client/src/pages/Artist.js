@@ -4,7 +4,8 @@ import { useQuery } from "@apollo/client";
 import { GET_USER_BY_ID } from "../utils/queries";
 import Spotify from "../components/Spotify/Spotify";
 
-import "./keramel.css"
+import "./artist.css"
+import EventList from "../components/EventList/EventList";
 
 
 const Artist = () => {
@@ -77,7 +78,7 @@ const Artist = () => {
       </section>
 
       <section>
-        Event Component
+        <EventList events={artist.events}/>
       </section>
     </div>
   );

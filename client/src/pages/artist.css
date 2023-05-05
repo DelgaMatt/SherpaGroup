@@ -5,7 +5,7 @@
     align-items: center;
     color: white;
     font-family: "Copperplate", "Papyrus", "fantasy";
-    text-align: center;
+
 }
 
 .vid-hero video {
@@ -80,9 +80,26 @@
     font-size: 3em;
     color:rgb(162, 160, 160)
 }
-/* a {
-    color: black
-} */
+
+/* <--- Event Styles ---> */
+
+.event-container {
+    /* align-self: center; */
+    margin: 10px;
+    
+}
+
+.event-box {
+
+    border-top: solid white;
+    border-bottom: solid white;
+}
+
+.event-title {
+    color: #f6023f;
+}
+
+/* <--- ---> */
 
 .spotify-contact-box {
     display: flex;
