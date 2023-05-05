@@ -22,10 +22,10 @@ const Artist = () => {
     variables: { userId },
   });
 
-  console.log({data})
+  // console.log({data})
 
   const artist = data?.user || {};
-  // console.log(artist);
+  console.log(artist);
 
   if(error){
     return console.log(error)
