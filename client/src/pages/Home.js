@@ -45,9 +45,7 @@ const HomePage = () => {
         </div>
         <h1 className="featured-artist">Featured Artists</h1>
         <div className="featured-artist-container">
-          <div className="images-container">
-            {loading ? <div>Loading...</div> : <ArtistList artists={artists} />}
-          </div>
+          {loading ? <div>Loading...</div> : <ArtistList artists={artists} />}
         </div>
       </div>
     </div>

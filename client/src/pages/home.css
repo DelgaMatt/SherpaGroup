@@ -78,7 +78,7 @@ body {
 
 .images-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px;
   text-align: center;
 }
@@ -87,7 +87,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  color:#f0c000;;
+  color:#f0c000;
   font-size: 50px;
 }
 
@@ -95,6 +95,7 @@ body {
   width: 100%;
   max-height: 500px;
   padding: 10px;
+  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -109,11 +110,11 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
-.images-container:hover .image-box {
+.artist-box:hover .image-box {
   opacity: 0.3;
 }
 
-.images-container:hover .middle {
+.artist-box:hover .middle {
   opacity: 3;
 }
 
