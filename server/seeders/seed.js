@@ -16,7 +16,7 @@ db.once('open', async () => {
         { artistName: hostArtist},
         {
           $addToSet: {
-            events: _id,
+            events: _id
           },
         }
       );

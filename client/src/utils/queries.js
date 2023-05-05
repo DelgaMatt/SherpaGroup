@@ -102,6 +102,14 @@ query user($userId: ID!) {
     instagramUrl
     spotifyUrl
     soundcloudUrl
+    events {
+        _id
+        name
+        date
+        location
+        venue
+        artists
+      }
   }
 }
 `;
